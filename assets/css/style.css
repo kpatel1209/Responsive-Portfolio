@@ -12,6 +12,10 @@ body {
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
 /* general */
 
 .container {
@@ -129,7 +133,7 @@ h3, h2 {
 .main-section {
   float: left;
   width: 100%;
-  max-width: 960px;
+  max-width: 660px;
   padding: 30px;
   margin: 0 0 40px;
   background: #ffffff;
@@ -219,18 +223,41 @@ input[type=submit] {
 }
 
 @media screen and (max-width:980px) {
-  body {
-    
+  #main-container {
+    overflow: auto;
+  }
+  nav {
+    margin: 25px 5px 0 0;    
+  }
+  .main-section {
+    max-width: 100%;
+  
   }
 
-}
-
 @media screen and (max-width:768px) {
+  #main-container {
+    overflow: auto;
+  }
+  .main-section {
+    max-width: 100%;
+    margin-left: 40px;
+  }
+
+  nav {
+    float: right;
+    margin: 25px 5px 0 0;  
+  }
+
+
   
 
 }
 
 @media screen and (max-width:640px) {
+  #masthead {
+    position: static;
+    margin-bottom: 20px;
+  }
   
 
 }
