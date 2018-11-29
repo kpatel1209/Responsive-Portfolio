@@ -267,4 +267,9 @@ input[type=submit] {
     width: 100%;
   }
 
+  #logo {
+    float: none;
+    width: 100%;
+  }
+
 }
