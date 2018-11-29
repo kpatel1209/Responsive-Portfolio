@@ -249,8 +249,6 @@ input[type=submit] {
   }
 
 
-  
-
 }
 
 @media screen and (max-width:640px) {
@@ -258,6 +256,15 @@ input[type=submit] {
     position: static;
     margin-bottom: 20px;
   }
-  
+  main.container {
+    padding-top: 0;
+  }
+  header.container {
+    padding-top: 0;
+  }
+
+  #logo, .work, .auth-image {
+    width: 100%;
+  }
 
 }
