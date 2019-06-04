@@ -12,7 +12,8 @@ body {
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -116,7 +117,8 @@ footer {
   height: 50px;
 }
 
-h3, h2 {
+h3,
+h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
@@ -226,50 +228,57 @@ input[type=submit] {
   #main-container {
     overflow: auto;
   }
-  nav {
-    margin: 25px 5px 0 0;    
-  }
-  .main-section {
-    max-width: 100%;
-  
-  }
-
-@media screen and (max-width:768px) {
-  #main-container {
-    overflow: auto;
-  }
-  .main-section {
-    max-width: 100%;
-    margin-left: 40px;
-  }
 
   nav {
-    float: right;
-    margin: 25px 5px 0 0;  
+    margin: 25px 5px 0 0;
   }
 
+  .main-section {
+    max-width: 100%;
 
-}
-
-@media screen and (max-width:640px) {
-  #masthead {
-    position: static;
-    margin-bottom: 20px;
-  }
-  main.container {
-    padding-top: 0;
-  }
-  header.container {
-    padding-top: 0;
   }
 
-  #logo, .work, .auth-image {
-    width: 100%;
+  @media screen and (max-width:768px) {
+    #main-container {
+      overflow: auto;
+    }
+
+    .main-section {
+      max-width: 100%;
+      margin-left: 40px;
+    }
+
+    nav {
+      float: right;
+      margin: 25px 5px 0 0;
+    }
+
+
   }
 
-  #logo {
-    float: none;
-    width: 100%;
-  }
+  @media screen and (max-width:640px) {
+    #masthead {
+      position: static;
+      margin-bottom: 20px;
+    }
 
-}
+    main.container {
+      padding-top: 0;
+    }
+
+    header.container {
+      padding-top: 0;
+    }
+
+    #logo,
+    .work,
+    .auth-image {
+      width: 100%;
+    }
+
+    #logo {
+      float: none;
+      width: 100%;
+    }
+
+  }
